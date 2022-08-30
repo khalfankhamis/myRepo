@@ -19,6 +19,7 @@ public class EnrolKey implements Serializable {
     public Course course;
 
     public EnrolKey(Integer stuId, String courseCode) {
-        super();
+        student=new Student(stuId);
+        course=new Course(courseCode);
     }
 }

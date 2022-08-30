@@ -24,5 +24,7 @@ public class Student {
     public Date dob;
     public String address;
     public Integer stuYear;
-
+    public Student(Integer stuId) {
+        this.stuId = stuId;
+    }
 }

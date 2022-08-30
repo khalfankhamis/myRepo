@@ -16,4 +16,7 @@ public class Course {
     public String courseCode;
     public String courseName;
     public Integer semester;
+    public Course(String courseCode) {
+        this.courseCode = courseCode;
+    }
 }

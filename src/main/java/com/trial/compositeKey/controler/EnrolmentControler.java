@@ -13,7 +13,6 @@ import java.util.List;
 public class EnrolmentControler {
     @Autowired
     public EnrolmentService enrolmentService;
-
     @PostMapping
     public Enrolment addEnrolment(@RequestBody Enrolment abe){
         return enrolmentService.addEnrolment(abe);
